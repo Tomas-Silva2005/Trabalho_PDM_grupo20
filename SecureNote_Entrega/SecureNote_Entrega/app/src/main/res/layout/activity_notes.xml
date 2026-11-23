@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SecureNote"
+            android:textColor="#3157D5"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="O teu espaço privado"
+            android:textColor="#778198"
+            android:textSize="15sp" />
+
+        <!-- Welcome -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="As tuas notas"
+            android:textColor="#17233C"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Guarda ideias, pensamentos e informação importante num só lugar."
+            android:textColor="#778198"
+            android:textSize="15sp" />
+
+        <!-- Security card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="#E4EBFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔒  Espaço protegido"
+                android:textColor="#3157D5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="As tuas notas são pessoais. Mantém a tua informação organizada e segura."
+                android:textColor="#435578"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- Add note button -->
+        <Button
+            android:id="@+id/btnAddNote"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="+  Criar nova nota"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3157D5" />
+
+        <!-- Notes section title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Notas guardadas"
+            android:textColor="#17233C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Empty state -->
+        <LinearLayout
+            android:id="@+id/emptyNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="28dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📝"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ainda não tens notas"
+                android:textColor="#25324B"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Cria a tua primeira nota e ela aparecerá aqui."
+                android:textColor="#778198"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- Container for future notes -->
+        <LinearLayout
+            android:id="@+id/notesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</ScrollView>
