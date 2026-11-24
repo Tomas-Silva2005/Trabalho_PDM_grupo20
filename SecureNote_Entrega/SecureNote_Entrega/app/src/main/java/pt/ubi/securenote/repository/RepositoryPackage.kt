@@ -7,9 +7,6 @@ class AuthRepository {
         if (email.isBlank() || password.isBlank()) {
             return false
         }
-
-        // Autenticação demonstrativa
-        return email == "demo@securenote.pt" &&
-                password == "Secure123"
+        return true
     }
 }

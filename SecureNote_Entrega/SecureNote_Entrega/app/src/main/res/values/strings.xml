@@ -1,3 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SecureNote</string>
+    <string name="logo_text">SN</string>
+    <string name="subtitle_text">As tuas notas. A tua privacidade.</string>
+    <string name="welcome_back">Bem-vindo de volta</string>
+    <string name="login_prompt">Inicia sessão para aceder às tuas notas.</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">exemplo@email.com</string>
+    <string name="password_label">Palavra-passe</string>
+    <string name="password_hint">Introduz a tua palavra-passe</string>
+    <string name="passkey_button_text">Iniciar sessao com passkey</string>
+    <string name="btn_register_passkey">Registar Passkey</string>
+    <string name="google_sign_in_button_text">Iniciar sessão com Google</string>
+    <string name="login_button_text">Iniciar sessão</string>
+    <string name="security_note_text">🔒 As tuas informações merecem proteção.</string>
 </resources>

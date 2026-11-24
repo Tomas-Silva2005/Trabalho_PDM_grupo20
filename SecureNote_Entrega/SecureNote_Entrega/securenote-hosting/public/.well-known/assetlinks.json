@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "pt.ubi.securenote",
+      "sha256_cert_fingerprints": [
+        "FC:EA:7F:D5:4F:25:22:06:24:6C:98:6A:F4:A4:B9:A8:E6:FF:F6:04:3C:E4:C5:B3:37:74:30:C8:A7:8B:41:99"
+      ]
+    }
+  }
+]

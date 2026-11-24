@@ -41,10 +41,14 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
 
-
-    // Credential Manager
-    implementation("androidx.credentials:credentials:1.6.0")
-    implementation("androidx.credentials:credentials-play-services-auth:1.6.0")
+    // Credential Manager & Google ID (Sign in with Google / Federated Auth)
+    implementation("androidx.credentials:credentials:1.5.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.5.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
+    implementation("androidx.biometric:biometric:1.1.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 
     // Testes
     testImplementation(libs.junit)
@@ -57,7 +61,8 @@ dependencies {
 
     // KSP - Processamento do Room
     ksp(libs.androidx.room.compiler)
-// Testes Android
+
+    // Testes Android
     androidTestImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test:core:1.6.1")
